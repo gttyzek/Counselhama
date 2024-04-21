@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Available Counselors - Career Guidance</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">CareerGuide</a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="counselors">
+            <h1>Available Counselors</h1>
+            <div class="counselor-list">
+                <!-- Example counselor -->
+                <div class="counselor">
+                    
+                    <h2>Dr. Jane Smith</h2>
+                    <p>Specialist in Career Transitions and Leadership Coaching</p>
+                    <button onclick="startSession('Dr. Jane Smith')">Start New Session</button>
+                </div>
+                <!-- Additional counselors can be added similarly -->
+            </div>
+        </section>
+        <section class="ongoing-sessions">
+            <h1>Ongoing and Previous Sessions</h1>
+            <div class="session-list">
+                <!-- Example previous session -->
+                <div class="session">
+                    <h3>Session with Dr. John Doe</h3>
+                    <p>Last session: 20th May 2024</p>
+                    <button onclick="continueSession('Dr. John Doe')">Continue Session</button>
+                </div>
+                <!-- Additional sessions can be added similarly -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Contact us at info@careerguide.com</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>

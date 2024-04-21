@@ -1,0 +1,711 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 24px;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.user-access a {
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+#hero {
+    background: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+.cta-button {
+    color: white;
+    background-color: #007BFF;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: left;
+}
+
+.footer-section {
+    margin: 10px;
+    flex: 1 1 200px;
+}
+
+.footer-section h4 {
+    color: #f9f9f9;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #fff;
+}
+
+footer form {
+    margin-top: 10px;
+}
+
+footer input[type="email"] {
+    padding: 8px;
+    border: none;
+    margin-right: 10px;
+    width: 70%;
+}
+
+footer button {
+    padding: 8px 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer button:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 600px) {
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-section {
+        margin: 20px 0;
+    }
+
+    footer input[type="email"], footer button {
+        width: auto;
+        margin-top: 10px;
+    }
+}
+
+
+.social-media li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.social-media a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    margin: 20px;
+    padding: 10px;
+    background: #f9f9f9;
+    border-radius: 8px;
+}
+
+.career-list article {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.career-list h3 {
+    color: #333;
+}
+
+#resources, #counseling, #dashboard {
+    text-align: center;
+}
+
+
+#job-search-form {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#job-search-form input[type="text"] {
+    flex-grow: 1;
+    margin-right: 10px;
+    padding: 8px;
+}
+
+#job-search-form button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.articles article {
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.articles h3 {
+    color: #333;
+}
+
+
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    header nav ul li {
+        margin: 10px 0;
+    }
+
+    .user-access {
+        margin-top: 10px;
+    }
+
+    #job-search-form {
+        flex-direction: column;
+    }
+
+    #job-search-form input[type="text"] {
+        margin-bottom: 10px;
+    }
+
+    .career-list article {
+        margin: 10px;
+        flex-direction: column;
+    }
+
+    .social-media li {
+        display: block;
+        margin: 5px 0;
+    }
+}
+
+
+
+body, html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e7eefb;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(135deg, #0062cc, #0096ff);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+header .logo {
+    font-weight: bold;
+}
+
+.cta-button {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+footer {
+    background: #282c34;
+}
+
+.social-media a:hover {
+    color: #4b8bec;
+}
+
+section {
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.career-list article:hover {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+}
+
+.articles article:hover {
+    border-color: #007BFF;
+}
+
+
+
+header nav ul li a:hover, .user-access a:hover {
+    text-decoration: underline;
+}
+
+#job-search-form button:hover {
+    background-color: #0056b3;
+}
+
+#job-search-form input[type="text"] {
+    border: 1px solid #ccc;
+    transition: border-color 0.3s;
+}
+
+#job-search-form input[type="text"]:focus {
+    border-color: #007BFF;
+}
+
+
+
+.form-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: white;
+    border-radius: 8px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .form-container {
+        width: 90%;
+        margin: 20px auto;
+        padding: 10px;
+    }
+}
+
+input[type="file"] {
+    margin: 10px 0;
+}
+
+label {
+    margin-bottom: 10px;
+    display: block;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+.about-details {
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    max-width: 800px;
+}
+
+.about-details h1 {
+    color: #333;
+    text-align: center;
+}
+
+.about-details p, .about-details ul {
+    text-align: left;
+    line-height: 1.6;
+}
+
+.about-details ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+header nav ul li a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+
+
+
+
+
+
+
+.career-assessment-section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.career-assessment-section h1 {
+    color: #333;
+}
+
+.career-assessment-section p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+
+.categories a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.categories a:hover {
+    background-color: #0056b3;
+}
+
+.assessment-category {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.assessment-category h1 {
+    color: #333;
+}
+
+.assessment-category p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 5px 0 0;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+
+
+
+
+.career-advice h1, .career-advice h2 {
+    color: #333;
+}
+
+.career-advice .content-library article {
+    background-color: #f2f2f2;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.career-advice .qa-section textarea {
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+}
+
+.career-advice .qa-section button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.career-advice .qa-section button:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+.job-alerts {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+}
+
+.job-alerts h1 {
+    color: #333;
+}
+
+.job-alerts form {
+    display: flex;
+    flex-direction: column;
+}
+
+.job-alerts label {
+    margin-top: 10px;
+}
+
+.job-alerts input, .job-alerts select {
+    padding: 8px;
+    margin-top: 5px;
+}
+
+.job-alerts button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.job-alerts button:hover {
+    background-color: #0056b3;
+}
+
+
+
+.resources {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.resources h1, .resources h2 {
+    color: #333;
+}
+
+.resources .content-library article, .interactive-events ul, .faq-section ul {
+    background-color: #fff;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.resources .content-library article h3, .interactive-events li, .faq-section li {
+    font-size: 16px;
+}
+
+.resources .interactive-events ul, .faq-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+
+
+
+.user-info, .dashboard-links, .to-dos, .counseling, .recommended-articles {
+    padding: 20px;
+    margin: 10px;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+}
+
+.dashboard-links a {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.dashboard-links a:hover {
+    background-color: #0056b3;
+}
+
+.to-dos ul, .recommended-articles ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.to-dos li, .recommended-articles li a {
+    padding: 5px 0;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.recommended-articles li a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.recommended-articles li a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+.counselors, .ongoing-sessions {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.counselor-list, .session-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.counselor, .session {
+    background-color: #fff;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 45%;
+}
+
+.counselor img, .session img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.counselor h2, .session h3 {
+    font-size: 20px;
+    color: #0056b3;
+}
+
+.counselor p, .session p {
+    font-size: 16px;
+    color: #666;
+}
+
+.counselor button, .session button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.counselor button:hover, .session button:hover {
+    background-color: #0056b3;
+}

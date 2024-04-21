@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Career Guidance</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="form-container">
+        <form id="registration-form">
+            <h2>Register</h2>
+            <input type="text" placeholder="First Name" name="firstName" required>
+            <input type="text" placeholder="Last Name" name="lastName" required>
+            <input type="email" placeholder="Email Address" name="email" required>
+            <input type="password" placeholder="Password (min 8 characters)" name="password" required>
+            <input type="text" placeholder="University" name="university" required>
+            <input type="text" placeholder="Department" name="department" required>
+            <input type="text" placeholder="Nationality" name="nationality" required>
+            <input type="file" name="cv" required>
+            <label for="cv">Upload your CV (PDF)</label>
+            <input type="file" name="videoCv" accept="video/*" required>
+            <label for="videoCv">Upload your Video CV</label>
+            <button type="submit">Register</button>
+            <p>Already have an account? <a href="login.html">Login here</a></p>
+        </form>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

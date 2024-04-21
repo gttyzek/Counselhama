@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Alerts - Career Guidance</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">CareerGuide</a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="job-alerts">
+            <h1>Set Up Job Alerts</h1>
+            <form id="job-alerts-form">
+                <label for="keywords">Job Keywords:</label>
+                <input type="text" id="keywords" name="keywords" placeholder="e.g., Software Developer, Data Analyst">
+                
+                <label for="frequency">Alert Frequency:</label>
+                <select id="frequency" name="frequency">
+                    <option value="daily">Daily</option>
+                    <option value="weekly">Weekly</option>
+                    <option value="monthly">Monthly</option>
+                </select>
+                
+                <label for="notification">Notification Method:</label>
+                <select id="notification" name="notification">
+                    <option value="email">Email</option>
+                    <option value="push">Push Notifications</option>
+                </select>
+                
+                <button type="submit">Save Alert Settings</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Contact us at info@careerguide.com</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
